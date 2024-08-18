@@ -1,0 +1,66 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #5a9df6;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    background-color: #fff;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: nones;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}

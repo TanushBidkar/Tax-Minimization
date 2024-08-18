@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Deductions</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #444;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Understanding Tax Deductions</h1>
+        <p>Understanding tax deductions is crucial for minimizing your tax liability and maximizing your potential tax savings. Deductions reduce your taxable income, which in turn lowers the amount of income subject to taxation.</p>
+
+        <h2>Standard Deduction vs. Itemized Deductions</h2>
+        <p><strong>Standard Deduction:</strong> The standard deduction is a fixed dollar amount that reduces your taxable income. It's a simplified way to claim deductions without itemizing expenses. The standard deduction amount varies each year and is determined by your filing status (single, married, etc.). Be sure to check the current standard deduction for your tax year.</p>
+        <p><strong>Itemized Deductions:</strong> Alternatively, you can choose to itemize deductions. This involves listing and providing proof of specific expenses, such as mortgage interest, medical expenses, and charitable contributions. If your itemized deductions exceed the standard deduction, you'll save more on taxes by itemizing.</p>
+
+        <h2>Common Deductions</h2>
+        <ul>
+            <li><strong>Mortgage Interest:</strong> Deducting mortgage interest paid on your primary and secondary residences can lead to significant savings.</li>
+            <li><strong>State and Local Taxes (SALT):</strong> You can deduct state income taxes or state sales tax (but not both) and property taxes.</li>
+            <li><strong>Charitable Contributions:</strong> Donations to qualified charitable organizations are deductible. Keep receipts or acknowledgments for your contributions.</li>
+            <li><strong>Medical Expenses:</strong> 
+                Medical expenses can be deductible if they exceed a certain percentage of your adjusted gross income (AGI). For the 2023 tax year, the threshold is 10% of AGI. Eligible medical expenses include doctor's fees, prescription medications, and certain medical procedures. Keep detailed records and receipts for these expenses.
+                <br>
+                Calculate potential tax savings:
+                <input type="number" id="medicalExpenses" placeholder="Enter your medical expenses">
+                <button onclick="calculateTaxSavings()">Calculate</button>
+                <p id="taxSavings"></p>
+            </li>
+        </ul>
+    </div>
+    <script>
+         
+        function calculateTaxSavings() {
+            const income = parseFloat(document.getElementById("income").value);
+            const taxRate = 0.20; // Assume a 20% tax rate for demonstration purposes
+            const savings = income * taxRate;
+            
+            // Format the savings as rupees (INR)
+            const savingsInRupees = new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR' }).format(savings);
+
+            document.getElementById("taxSavings").textContent = `Your potential tax savings: ${savingsInRupees}`;
+        }
+    </script>
+    </script>
+</body>
+</html>

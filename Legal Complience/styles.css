@@ -1,0 +1,226 @@
+ body { 
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    background-image: url(https://static.toiimg.com/thumb/msid-61961341,imgsize-191993,width-400,resizemode-4/61961341.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #5a9df6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the Tax Insights section */
+.tax-insights {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style individual tax insight articles */
+.tax-insights article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tax-insights article h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.tax-insights article p {
+    color: #444;
+}
+
+.tax-insights article a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.tax-insights article a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #5a9df6;
+    color: #fff;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .tax-insights article {
+        padding: 5px;
+    }
+}
+
+/* Add your CSS styles here */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the Tax Insights section */
+.tax-insights {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style individual tax insight articles */
+.tax-insights article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tax-insights article h3 {
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.tax-insights article p {
+    color: #444;
+}
+
+.tax-insights article a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.tax-insights article a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Remove margin for <p> in the footer */
+footer p {
+    margin: 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    .tax-insights article {
+        padding: 5px;
+    }
+}
+
+footer p{
+    margin:0
+}
+
+

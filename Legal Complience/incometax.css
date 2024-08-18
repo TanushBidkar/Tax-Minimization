@@ -1,0 +1,61 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+.form-group {
+    margin: 20px 0;
+    text-align: left;
+    background-color: #fff; /* White background color for form elements */
+    padding: 20px; /* Add padding to create separation */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+body{
+    background-color: #9fdbf5;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type='number'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Light gray background color for input fields */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Blue background color for the button */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+/* Add hover effect for the button */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.myWrapTable {
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #fff; /* White background color for the table */
+}
+
+.myWrapTable td {
+    border: solid 1px gray;
+    padding: 5px 10px;
+}

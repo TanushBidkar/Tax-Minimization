@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Baloo Paaji 2', cursive;
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+}
+
+.container {
+    /* position: sticky; */
+    display: flex;
+    /* left: 0px; */
+    margin-left: -9px;
+    /* flex: auto; */
+    font-size: 14px;
+    height: 16vh;
+    background: #5ad9f6;
+}
+
+.navbar {
+    float: right;
+    margin: auto;
+    /* left: 200px; */
+    /* padding: 0.5rem 1.5rem; */
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-link, .drop-down li {
+    list-style: none;
+    flex-direction: column;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 100px;
+    cursor: pointer;
+    /* color: #fff; */
+    /* font-size: 50px; */
+}
+
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.drop-down {
+    position: absolute;
+    padding: 0.5rem 0;
+    margin: 0.5rem -0.5rem;
+    background: rgb(230, 228, 226);
+    color: rgb(88, 83, 83);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    font-size: 12px;
+    display: none;
+}
+
+.nav-link:hover {
+    background-color: rgb(23, 88, 113);
+    /* color: #fff; */
+    border-radius: 0.5rem;
+}
+
+
+.services:hover .drop-down {
+    display: inline-flex;
+    flex-direction: column ;
+    z-index: 1;
+    color: rgb(245, 249, 249);
+    background-color: rgb(142, 152, 152);
+}
+
+
+.services a {
+    display: flex;
+    align-items: center;
+}
+
+.services .dropdown-icon {
+    font-size: 18px;
+    position: relative;
+    right: -5px;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out all;
+}
+
+.services:hover .dropdown-icon {
+    transform: rotate(180deg);
+}
+
+.drop-down li:hover {
+    background: black;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    /* margin: auto; */
+    position: absolute;
+    top: 37px;
+    right: 8px;
+    /*background-color: #6a5e5e;*/ 
+  }
+  .btn {
+    font-family: "Baloo Bhai 2", "cursive";
+    margin: -14px 33px;
+    padding: 4px 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(23, 88, 113);
+    color: white;
+  }
+  .btn:hover {
+    background-color: lightslategrey;
+  }
+
+
+  .headphone{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    background-color: #fff;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.calculator h1 {
+    font-size: 28px;
+    color: #0099E5; /* Heading color */
+    margin-bottom: 20px;
+}
+
+.calculator label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #0099E5;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+#calculate-btn {
+    background-color: #0099E5;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #0099E5;
+}
+
+.info {
+    text-align: center;
+    margin-top: 20px;
+    color: darkblue
+}

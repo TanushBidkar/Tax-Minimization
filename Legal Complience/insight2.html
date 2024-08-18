@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recent Tax Law Changes</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #444;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Recent Tax Law Changes</h1>
+        <p>Stay up-to-date with the latest changes in tax legislation. Understanding recent tax law changes is essential for managing your finances and ensuring compliance with the tax code.</p>
+
+        <h2>Key Tax Law Changes</h2>
+        <p><strong>2023 Tax Rate Updates:</strong> The tax rates for 2023 have been adjusted. Be aware of the new income tax brackets and rates to calculate your tax liability accurately.</p>
+        <p><strong>Tax Deduction Changes:</strong> Several tax deductions have been modified. Review changes to standard deductions, itemized deductions, and credits to maximize your tax savings.</p>
+        <p><strong>Retirement Account Changes:</strong> There may be changes to contribution limits and rules for retirement accounts like 401(k)s and IRAs.</p>
+        <p><strong>Tax Credits and Incentives:</strong> Keep an eye on new tax credits or incentives for specific activities or investments, such as renewable energy projects or education expenses.</p>
+
+        <h2>Resources for Staying Informed</h2>
+        <ul>
+            <li><strong>IRS Website:</strong> Visit the official IRS website for the most up-to-date tax information and resources.</li>
+            <li><strong>Tax Professionals:</strong> Consult with tax professionals or accountants who can provide personalized guidance based on your financial situation.</li>
+            <li><strong>News and Publications:</strong> Read financial news and publications to stay informed about tax law changes and their potential impact.</li>
+        </ul>
+
+        <h2>Calculate Potential Tax Savings</h2>
+        <p>Use the following calculator to estimate your potential tax savings based on recent tax law changes:</p>
+        <label for="income">Taxable Income:</label>
+        <input type="number" id="income" placeholder="Enter your taxable income">
+        <button onclick="calculateTaxSavings()">Calculate</button>
+        <p id="taxSavings"></p>
+    </div>
+    <script>
+        function calculateTaxSavings() {
+    const income = parseFloat(document.getElementById("income").value);
+    const taxRate = 0.20; // Assume a 20% tax rate for demonstration purposes
+    const savings = income * taxRate;
+    
+    // Format the savings as rupees (INR)
+    const savingsInRupees = new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR' }).format(savings);
+
+    document.getElementById("taxSavings").textContent = `Your potential tax savings: ${savingsInRupees}`;
+}
+
+            
+    </script>
+</body>
+</html>

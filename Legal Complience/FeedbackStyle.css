@@ -1,0 +1,85 @@
+/* Styles for the feedback form */
+body{
+    /* background-color: black; */
+    /* background-image:url('https://www.efile.com/image/social-media-services-feedback-blue.png'); */
+    background: url(https://media0.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif?cid=ecf05e47key3d8c4pc06iyiwfsbxrb7kyabrxims3ue12tfp&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    z-index: -1;
+    background-size: cover;
+}
+.feedback-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+/* Styles for the feedback form */
+
+.feedback-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20x;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+     
+    background-size: cover; /* Adjust to cover or contain, depending on your preference */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Define the animation keyframes */
+
+     
+         /* End color */
+    
+
+
+/* Apply the animation to an element */
+body {
+    animation: colorChange 5s infinite alternate; /* Use the animation */
+}
+
+

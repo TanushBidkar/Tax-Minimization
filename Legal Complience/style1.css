@@ -1,0 +1,93 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Resource list styles */
+#resource-list {
+    margin: 20px;
+}
+
+.resource {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.resource a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Video container styles */
+.dhruv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styled important videos section */
+#imp {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#imp p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Centered iframe container */
+#iframe-container, .iframe1-container {
+    text-align: center;
+    margin: 100px;
+}
+
+/* Styled iframe videos */
+iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Animation for iframe hover */
+iframe:hover {
+    transform: scale(1.05);
+}
